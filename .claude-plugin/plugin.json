@@ -1,0 +1,6 @@
+{
+  "name": "harness",
+  "version": "0.1.0",
+  "description": "Decision protocol, ledger and review loop for Claude Code projects of any kind.",
+  "author": { "name": "ervinsapinis" }
+}
