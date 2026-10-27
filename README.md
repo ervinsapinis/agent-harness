@@ -22,9 +22,11 @@ layer, which the `init` skill sets up.
 
 ## Load it
 
-`claude --plugin-dir C:\proj\harness`
-
-To compare runs, start a session without the flag.
+- **CLI, for one session:** `claude --plugin-dir <path to this repo>`. To compare runs, start a session without the
+  flag.
+- **Install for one project:** works in both the CLI and the desktop app, because they share settings. Run
+  `claude plugin marketplace add ervinsapinis/agent-harness`, then, in the project folder,
+  `claude plugin install harness@ervinsapinis --scope local`.
 
 ## Rule
 

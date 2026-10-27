@@ -1,0 +1,11 @@
+{
+  "name": "ervinsapinis",
+  "owner": { "name": "ervinsapinis" },
+  "plugins": [
+    {
+      "name": "harness",
+      "source": "./",
+      "description": "Decision protocol, ledger and review loop for Claude Code projects of any kind."
+    }
+  ]
+}
