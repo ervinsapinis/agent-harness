@@ -13,7 +13,8 @@ disable-model-invocation: true
 3. **Ask the size:** lite (one CLAUDE.md), medium (plus rules for the areas being worked on and an on-demand
    reviewer) or full (plus lint). — done when recorded.
 4. **Conventions round.** Read the conventions from the code with counts ("32 of 34"), show the list and ask for one
-   confirmation; queue every inconsistency as an ask-once question. — done when the user confirmed the list.
+   confirmation; queue every inconsistency as an ask-once question. In a new project with no code yet, ask the
+   conventions one at a time instead. — done when the user confirmed the list.
 5. **Verification ladder.** Name the R1–R4 rung for each area and run R1 once. — done when each area has a command
    or an R4 checklist.
 6. **Write the layer** after the user says yes: a CLAUDE.md map, rule files with `paths:` and lines of at most 220

@@ -27,6 +27,8 @@ layer, which the `init` skill sets up.
 - **Install for one project:** works in both the CLI and the desktop app, because they share settings. Run
   `claude plugin marketplace add ervinsapinis/agent-harness`, then, in the project folder,
   `claude plugin install harness@ervinsapinis --scope local`.
+- **Update after a harness change:** run `claude plugin marketplace update ervinsapinis`, then
+  `claude plugin update harness@ervinsapinis`. A third-party marketplace doesn't update on its own.
 
 ## Rule
 
