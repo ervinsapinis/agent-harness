@@ -30,6 +30,11 @@ layer, which the `init` skill sets up.
 - **Update after a harness change:** run `claude plugin marketplace update ervinsapinis`, then
   `claude plugin update harness@ervinsapinis`. A third-party marketplace doesn't update on its own.
 
+## Status
+
+- Where things stand and what comes next: `docs/status.md`.
+- What changed in each version: `CHANGELOG.md`.
+
 ## Rule
 
 No work content in this repo: no employer or client code, names, configs or findings. Work layers stay on the work
